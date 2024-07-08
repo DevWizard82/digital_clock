@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background: url(https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    position: relative;
+}
+
+.container div {
+    margin: 5px;
+}
+.container span {
+    display: flex;
+    width: 100px;
+    height: 80px;
+    font-size: 50px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .text {
+    height: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: rgb(97, 94, 94);
+}
+
+h2 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+#ampm {
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(66, 65, 65);
+}
